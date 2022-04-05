@@ -5,16 +5,9 @@ import { Menu, Dropdown, Avatar, Carousel } from 'antd'
 import 'antd/dist/antd.css';
 import { ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
 import { CarroselProdutos } from './Carrossel Produtos';
-
-const contentStyle: any = {
-  height: '100%',
-  color: '#fff',
-  lineHeight: '100%',
-  textAlign: 'center',
-  background: '#364d79',
+import { AnimationPage } from './AnimationPage';
 
 
-};
 const menu = (
   <Menu>
     <Menu.Item>
@@ -36,7 +29,9 @@ const menu = (
 export const NavBarDesktop = () => {
   return (
     <>
-      <Box gap={1} width={'100%'} backgroundColor='#3d88eb' boxShadow='0px 0px 10px rgba(50, 50, 50, 0.9)' justifyContent='left' >
+
+
+      <Box gap={1} width={'100%'} backgroundColor='#3d88eb' boxShadow='0px 0px 10px rgba(50, 50, 50, 0.1)' justifyContent='left' >
         <HStack paddingLeft={3} width='100%'>
           <Image marginBottom={-30} width={'40'} src='logo.svg'></Image>
 
