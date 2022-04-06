@@ -35,7 +35,7 @@ export const NavBarDesktop = () => {
 
     <>
       <HStack id="testes" boxShadow='0px 0px 10px rgba(50, 50, 50, 0.8)' padding={0} backgroundColor={'#3d88eb'}>
-        <Image marginLeft={3} width={'15%'} src='logo branca.svg'></Image>
+        <Image marginLeft={3} width={'12%'} src='logo branca.svg'></Image>
         <Spacer />
         <SimpleGrid columns={2}  >
           <VStack align={'left'}>
