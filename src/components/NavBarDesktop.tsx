@@ -81,7 +81,7 @@ export const NavBarDesktop = () => {
         </VStack>
 
         <VStack paddingTop={10} marginLeft={'5%'} align={'initial'}>
-          <Text padding={'3%'} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI !</b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={15} variant='link'>Ver mais</Button></Text>
+          <Text padding={'3%'} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI ! </b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={15} variant='link'>Ver mais</Button></Text>
         </VStack>
         <HStack justify={'center'} paddingX={1}  marginBottom={'159px'}>
         <Produtos/>

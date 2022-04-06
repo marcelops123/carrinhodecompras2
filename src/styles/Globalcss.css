@@ -12,10 +12,12 @@
 
 #boxprodutos {
     transform: scale(0.9);
+    transition: all ease 0.3s;
+        
 }
 
 #boxprodutos:hover {
-    transform: scale(1);
-    transition: all ease 0.3s;
+    transform: scale(1.0);
+    transition: all ease 0.2s;
     box-shadow: 1px 1px 8px black
 }
