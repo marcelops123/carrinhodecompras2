@@ -1,8 +1,7 @@
 import React from "react"
 import { Stack, useMediaQuery } from "@chakra-ui/react"
-import { NavBarDesktop } from "./NavBarDesktop"
 import { NavBarMobile } from "./NavBarMobile"
-import { TesteNavBar } from "./TesteNavBar"
+import { NavBarDesktop } from "./NavBarDesktop"
 import { AnimationPage } from "./AnimationPage"
 
 export const UseMediaNavBar = () => {
@@ -11,7 +10,7 @@ export const UseMediaNavBar = () => {
        <AnimationPage>
 
 
-        {MenorThan1260 ? <TesteNavBar /> : <NavBarMobile />}
+        {MenorThan1260 ? <NavBarDesktop /> : <NavBarMobile />}
        </AnimationPage>
     )
 }

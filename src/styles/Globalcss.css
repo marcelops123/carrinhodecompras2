@@ -1,0 +1,21 @@
+
+#testez {
+    background-color: #EBEBEB
+
+    ;
+}
+
+#testes {
+    background-color: #3d88eb
+}
+
+
+#boxprodutos {
+    transform: scale(0.9);
+}
+
+#boxprodutos:hover {
+    transform: scale(1);
+    transition: all ease 0.3s;
+    box-shadow: 1px 1px 8px black
+}

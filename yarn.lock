@@ -1899,6 +1899,36 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/lato@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/lato/-/lato-4.5.5.tgz#d7371e29600528a44f5076a1604cf223168d1579"
+  integrity sha512-0KVmVCq3wZnriKVdbY+n/ZLf7Vy+dQcqpcm8kaVX4QGd6uBTgH6YWLnM1L051TtjKlal2FiE6xc/BLw116a0gQ==
+
+"@fontsource/poly@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/poly/-/poly-4.5.6.tgz#42a50a625a688d57ec9c03c75e4f28d4cd99059d"
+  integrity sha512-g59NKCZJv2uSVoOq9ez8HmUy+RS7FHOWOGb9oiPEx0DoCHK3FbYX/fixYZo21ADTmOaJR8QXa1h9ONKNzRPwaQ==
+
+"@fontsource/poppins@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.5.5.tgz#db08da1c37db30eb06d75c2abdd9c62118dbab8b"
+  integrity sha512-fqRWOQDhfoJoxP98qwMQLvLcgOu13yib6rZjL5UqpurobIaWTweqzo95uOLOGBjEE0bMMAbfDMoFUTL8Byrdeg==
+
+"@fontsource/quando@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/quando/-/quando-4.5.6.tgz#c1d463f28a24544312225fa1102aa6f48290269b"
+  integrity sha512-PUuFKJiaEq2TowxVeDNke4LDjFeLjkr6UKXSz2El6drJ/8spuRkSVnwWlTnWvmGTevXQ7P0V6qfvN0Fkifl+ng==
+
+"@fontsource/roboto-slab@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-slab/-/roboto-slab-4.5.6.tgz#3b5ebef6b1073cc1e2183546d682066276a02bad"
+  integrity sha512-JT0svJ8X3UiinVjkM3mwyI7bmrD04efJ0WbeYGv7X+s9jZM+siULfUAACC/TFRxMyCc/AkR6rWP6GlHfntQePQ==
+
+"@fontsource/roboto@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.5.tgz#4ecc38e690469378e2ec2a97f9c12282c654cc93"
+  integrity sha512-Pe1p+gAO6K0aLxBXlLoJRHVx352tVc/v/7DOnvM3t+FYXb+KUga9aCD1NpnDfd0kKnWXqrZyAXguyyFWDDuphw==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.5.tgz"

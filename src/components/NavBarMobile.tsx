@@ -36,7 +36,7 @@ export const NavBarMobile = () => {
            
           <SimpleGrid marginTop={-4}  >
             <HStack >
-          <Button _hover={{}} _focus={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
+          <Button _hover={{}} _focus={{}} _active={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
           <Spacer />
           <MenuMobile />
 

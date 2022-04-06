@@ -1,6 +1,7 @@
-import { Spacer } from "@chakra-ui/react";
-import { Carousel, Image } from "antd"
+import { Grid, HStack, Spacer } from "@chakra-ui/react";
+import { Carousel,  Image } from "antd"
 import { AnimationPage } from "./AnimationPage";
+import '../styles/Globalcss.css'
 
 const contentStyle: any = {
     height: '100%',
@@ -17,10 +18,10 @@ export const CarroselProdutos = () => {
     return (
         <>
       <AnimationPage>
+        <HStack id="testes" marginTop={30} padding={0}  >
 
-        <Spacer marginTop={18} />
-        <div></div>
-         <Carousel autoplay  >
+        </HStack>
+         <Carousel   autoplay  >
         <div>
           <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_735707-MLA49568604353_042022-OO.webp'></Image>
         </div>
@@ -31,7 +32,7 @@ export const CarroselProdutos = () => {
           <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_651494-MLA49567281378_042022-OO.webp'></Image>
         </div>
         <div>
-          <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_600350-MLA49568947621_042022-OO.webp'></Image>
+          <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_659213-MLA49565959017_042022-OO.webp'></Image>
         </div>
       </Carousel>
       </AnimationPage>

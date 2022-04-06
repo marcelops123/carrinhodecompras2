@@ -22,7 +22,7 @@ export const MenuMobile = () => {
     <Avatar size={35} src='https://avatars.githubusercontent.com/u/95228603?v=4' icon={<UserOutlined />} />
     <InputGroup>
               <InputRightElement marginTop={3} pointerEvents='initial' children={<Button _focus={{}} backgroundColor='transparent' _hover={{}} ><SearchIcon fontSize={16} /> </Button>} />
-              <Input top={'3'} backgroundColor={'white'}  type='text' placeholder='Buscar produtos, empresas...'></Input>
+              <Input top={'3'} backgroundColor={'white'} type='text'   placeholder='Buscar produtos, empresas...'></Input>
             </InputGroup>
     </VStack>
   </MenuList>
