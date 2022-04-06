@@ -1,4 +1,4 @@
-import {  Button, Grid, HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack } from '@chakra-ui/react'
+import {  Button, Divider, Grid, HStack, Image, Text, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Flex } from '@chakra-ui/react'
 import {SearchIcon} from '@chakra-ui/icons'
 import React from 'react'
 import 'antd/dist/antd.css';
@@ -6,6 +6,11 @@ import { ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Avatar } from 'antd';
 import { MenuMobile } from './MenuMobile';
 import { CarroselProdutos } from './Carrossel Produtos';
+import "@fontsource/poppins"
+import "@fontsource/quando"
+import "@fontsource/poly"
+import '@fontsource/roboto'
+import { Produtos } from './Produtos';
 
   const menu = (
   <Menu>
@@ -48,9 +53,10 @@ export const NavBarMobile = () => {
       
     <Spacer />
     <SimpleGrid columns={1} >
-    <VStack >
+    <VStack padding={2} >
         <b>NOSSAS CATEGORIAS</b>
-        <HStack >
+        <Divider paddingY={2} borderColor={'ButtonShadow'}/>
+        <HStack  padding={2} >
 
           <Avatar size={50} src='https://http2.mlstatic.com/D_Q_NP_974266-MLA48254501676_112021-AB.webp' icon={<UserOutlined />} />
           <Avatar size={50} src='https://http2.mlstatic.com/D_Q_NP_707970-MLA46081133887_052021-AB.webp' icon={<UserOutlined />} />
@@ -59,8 +65,15 @@ export const NavBarMobile = () => {
           <Avatar size={50} src='https://http2.mlstatic.com/D_Q_NP_837255-CBT46242013787_062021-AB.webp' icon={<UserOutlined />} />
         </HStack>
       </VStack>
-    </SimpleGrid>
+    </SimpleGrid> 
+    <VStack paddingTop={10} marginLeft={'5%'} align={'initial'}>
+          <Text padding={'3%'} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI ! </b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={15} variant='link'>Ver mais</Button></Text>
+        </VStack>
+        <SimpleGrid  width='2000px' paddingX={100}  >
+        <Produtos/>
+        </SimpleGrid  >
       <Spacer  />
+
 
         </>
 

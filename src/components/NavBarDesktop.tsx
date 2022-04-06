@@ -34,13 +34,13 @@ export const NavBarDesktop = () => {
 
 
     <>
-      <HStack id="testes" boxShadow='0px 0px 10px rgba(50, 50, 50, 0.8)' padding={0} backgroundColor={'#3d88eb'}>
+      <HStack id="testes" boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'#3d88eb'}>
         <Image marginLeft={3} width={'12%'} src='logo branca.svg'></Image>
         <Spacer />
         <SimpleGrid columns={2}  >
           <VStack align={'left'}>
             <InputGroup paddingLeft={'15px'}>
-              <InputRightElement paddingTop={3} pointerEvents='all' children={<Button _focus={{}} backgroundColor='transparent' _hover={{}} ><SearchIcon /> </Button>} />
+              <InputRightElement paddingTop={3} pointerEvents='all' children={<Button _focus={{}} backgroundColor='transparent'    ><SearchIcon /> </Button>} />
               <Input top={'2'} fontSize={13} borderRadius='6px' backgroundColor={'white'} height='38px' width='600px' type='text' placeholder='Buscar produtos, empresas...'></Input>
             </InputGroup>
 

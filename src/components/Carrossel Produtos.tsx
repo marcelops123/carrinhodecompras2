@@ -18,11 +18,11 @@ export const CarroselProdutos = () => {
     return (
         <>
       <AnimationPage>
-        <HStack id="testes" marginTop={30} padding={0}  >
+        <HStack  marginTop={30} padding={0}  >
 
         </HStack>
-         <Carousel   autoplay  >
-        <div>
+         <Carousel  autoplay  >
+        <div >
           <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_735707-MLA49568604353_042022-OO.webp'></Image>
         </div>
         <div>
