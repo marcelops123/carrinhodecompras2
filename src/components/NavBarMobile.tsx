@@ -13,6 +13,7 @@ import "@fontsource/poly"
 import '@fontsource/roboto'
 import '../styles/Globalcss.css'
 import { AnimationPage } from './AnimationPage';
+import { DarkMode } from './DarkMode';
 const menu = (
   <Menu>
     <Menu.Item>
@@ -43,6 +44,7 @@ export const NavBarMobile = () => {
 
           <SimpleGrid marginTop={-4}  >
             <HStack >
+              <DarkMode/>
               <Button _hover={{}} _focus={{}} _active={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
               <Spacer />
               <MenuMobile />
