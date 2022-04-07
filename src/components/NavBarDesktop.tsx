@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
 import { Box, Button, Flex, HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Text, Stack, Divider } from "@chakra-ui/react"
 import { ShoppingCartOutlined, UserOutlined } from "@ant-design/icons"
@@ -13,18 +14,39 @@ import '@fontsource/roboto'
 import { AnimationPage } from "./AnimationPage"
 import { DarkMode } from "./DarkMode"
 
-const menu = (
+const categorias = (
   <Menu>
     <Menu.Item>
       <a>
-        1st menu item
+       Celulares
       </a>
     </Menu.Item>
     <Menu.Item>
       <a>
-        2nd menu item
+        Computadores
       </a>
     </Menu.Item>
+       
+
+
+
+  </Menu>
+)
+
+
+const empresas = (
+  <Menu>
+    <Menu.Item>
+      <a>
+       HIDROMAQ PEÇAS AGRICOLAS
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a>
+        COOPERVAP
+      </a>
+    </Menu.Item>
+       
 
 
 
@@ -48,10 +70,10 @@ export const NavBarDesktop = () => {
 
 
             <HStack align={'left'}>
-              <Dropdown overlayStyle={{ boxSizing: 'inherit' }} overlay={menu} placement="bottom" arrow>
+              <Dropdown overlayStyle={{ boxSizing: 'inherit' }} overlay={categorias} placement="bottom" arrow>
                 <Button  fontFamily={'Poly, serif'} fontSize={16} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Categorias</Button>
               </Dropdown>
-              <Dropdown overlay={menu} placement="bottom" arrow>
+              <Dropdown overlay={empresas} placement="bottom" arrow>
                 <Button fontFamily={'Poly, serif'} fontSize={16} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Empresas</Button>
               </Dropdown>
             </HStack>

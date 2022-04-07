@@ -10,7 +10,6 @@ const contentStyle: any = {
     textAlign: 'center',
     background: '#364d79',
   
-  
   };
 
 
