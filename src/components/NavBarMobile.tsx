@@ -69,10 +69,16 @@ export const NavBarMobile = () => {
     <VStack paddingTop={10} marginLeft={'5%'} align={'initial'}>
           <Text padding={'3%'} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI ! </b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={15} variant='link'>Ver mais</Button></Text>
         </VStack>
-        <SimpleGrid  width='2000px' paddingX={'18%'}  >
-        <Produtos/>
-        </SimpleGrid  >
-      <Spacer  />
+
+        <HStack justify={'center'}>
+        <SimpleGrid width={'80%'} marginRight={'5%'}  columns={{sm: 2, lg:3}} spacing={0}   >
+        <Produtos />
+        </SimpleGrid>
+        </HStack>
+      
+          
+
+
 
 
         </>
