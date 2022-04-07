@@ -58,7 +58,7 @@ export const NavBarDesktop = () => {
 
     <>
       <AnimationPage>
-      <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'#3d88eb'}>
+      <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'ThreeDDarkShadow'}>
         <Image marginLeft={3} width={'12%'} src='logo branca.svg'></Image>
         <Spacer />
         <SimpleGrid columns={2}  >
@@ -111,7 +111,7 @@ export const NavBarDesktop = () => {
         </VStack>
 
 
-        <SimpleGrid justifyContent='center' paddingLeft={10} columns={{xl: 7, lg: 6, md: 5  }}    >
+        <SimpleGrid justifyContent='center' paddingLeft={10} columns={7}    >
         <Produtos/>
         </SimpleGrid>
 
