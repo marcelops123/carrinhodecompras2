@@ -81,6 +81,7 @@ export const NavBarDesktop = () => {
         </SimpleGrid>
         <Spacer paddingX={100} />
         <HStack marginTop={-4} paddingRight='2%'>
+          <DarkMode/>
           <Button _hover={{}} _focus={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
           <Avatar  src='https://avatars.githubusercontent.com/u/95228603?v=4' icon={<UserOutlined />} />
         </HStack>
@@ -97,11 +98,11 @@ export const NavBarDesktop = () => {
           <HStack paddingTop={3} spacing={100}>
 
 
-            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_974266-MLA48254501676_112021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_707970-MLA46081133887_052021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_895808-MLB47860103489_102021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_738716-MLB49182934470_022022-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_837255-CBT46242013787_062021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='lg' src='https://http2.mlstatic.com/D_Q_NP_974266-MLA48254501676_112021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='lg' src='https://http2.mlstatic.com/D_Q_NP_707970-MLA46081133887_052021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='lg' src='https://http2.mlstatic.com/D_Q_NP_895808-MLB47860103489_102021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='lg' src='https://http2.mlstatic.com/D_Q_NP_738716-MLB49182934470_022022-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='lg' src='https://http2.mlstatic.com/D_Q_NP_837255-CBT46242013787_062021-AB.webp' icon={<UserOutlined />} />
           </HStack>
         </VStack>
 
@@ -110,7 +111,7 @@ export const NavBarDesktop = () => {
         </VStack>
 
 
-        <SimpleGrid justifyContent='center' paddingLeft={10} columns={{ lg: 5, xl:7 }}    >
+        <SimpleGrid justifyContent='center' paddingLeft={10} columns={{ lg: 5, xl:7  }}    >
         <Produtos/>
         </SimpleGrid>
 
