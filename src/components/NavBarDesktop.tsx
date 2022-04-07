@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
-import {  Button,  HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Text, Divider } from "@chakra-ui/react"
+import {  Button,  HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Text, Divider, Avatar  } from "@chakra-ui/react"
 import { ShoppingCartOutlined, UserOutlined } from "@ant-design/icons"
 import { SearchIcon } from "@chakra-ui/icons"
-import { Avatar, Dropdown, Menu } from "antd"
+import {  Dropdown, Menu } from "antd"
 import { CarroselProdutos } from "./Carrossel Produtos"
 import { Produtos } from "./Produtos"
 import '../styles/Globalcss.css'
@@ -83,7 +83,7 @@ export const NavBarDesktop = () => {
         <HStack marginTop={-4} paddingRight='2%'>
           <DarkMode/>
           <Button _hover={{}} _focus={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
-          <Avatar size={40} src='https://avatars.githubusercontent.com/u/95228603?v=4' icon={<UserOutlined />} />
+          <Avatar  src='https://avatars.githubusercontent.com/u/95228603?v=4' icon={<UserOutlined />} />
         </HStack>
       </HStack>
 
@@ -93,21 +93,21 @@ export const NavBarDesktop = () => {
 
         <VStack justify={'center'}>
         <div style={{paddingTop:'5px' }}></div>
-          <Text fontFamily={' Quando, serif'} ><b>NOSSAS CATEGORIAS</b></Text>
+          <Text fontSize={22} fontFamily={' Quando, serif'} ><b>NOSSAS CATEGORIAS</b></Text>
           <Divider paddingY={2} borderColor={'ButtonShadow'}/>
           <HStack paddingTop={3} spacing={100}>
 
 
-            <Avatar style={{ cursor: 'pointer' }} size={100} src='https://http2.mlstatic.com/D_Q_NP_974266-MLA48254501676_112021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={100} src='https://http2.mlstatic.com/D_Q_NP_707970-MLA46081133887_052021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={100} src='https://http2.mlstatic.com/D_Q_NP_895808-MLB47860103489_102021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={100} src='https://http2.mlstatic.com/D_Q_NP_738716-MLB49182934470_022022-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={100} src='https://http2.mlstatic.com/D_Q_NP_837255-CBT46242013787_062021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_974266-MLA48254501676_112021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_707970-MLA46081133887_052021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_895808-MLB47860103489_102021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_738716-MLB49182934470_022022-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_837255-CBT46242013787_062021-AB.webp' icon={<UserOutlined />} />
           </HStack>
         </VStack>
 
         <VStack paddingTop={10} marginLeft={'5%'} align={'initial'}>
-          <Text padding={'3%'} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI ! </b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={15} variant='link'>Ver mais</Button></Text>
+          <Text padding={'3%'} fontSize={22} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI ! </b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={20} variant='link'>Ver mais</Button></Text>
         </VStack>
         <HStack justify={'center'} paddingX={1} paddingBottom={10} >
         <Produtos/>
