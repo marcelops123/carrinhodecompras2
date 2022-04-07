@@ -111,7 +111,7 @@ export const NavBarDesktop = () => {
         </VStack>
 
 
-        <SimpleGrid justifyContent='center' paddingLeft={10} columns={{ lg: 5, xl:7  }}    >
+        <SimpleGrid justifyContent='center' paddingLeft={10} columns={{xl: 7, lg: 6, md: 5  }}    >
         <Produtos/>
         </SimpleGrid>
 
