@@ -65,7 +65,7 @@ export const NavBarDesktop = () => {
           <VStack align={'left'}>
             <InputGroup paddingLeft={'15px'}>
               <InputRightElement paddingTop={3} pointerEvents='all' children={<Button _focus={{}} backgroundColor='transparent'    ><SearchIcon /> </Button>} />
-              <Input top={'2'} fontSize={13} borderRadius='6px' backgroundColor={'white'} height='38px' width='600px' type='text' placeholder='Buscar produtos, empresas...'></Input>
+              <Input top={'2'} fontSize={15} borderRadius='6px' fontFamily={'Roboto, sans-serif'} backgroundColor={'white'} height='38px' width='600px' type='text' placeholder='Buscar produtos, empresas...'></Input>
             </InputGroup>
 
 
@@ -92,6 +92,7 @@ export const NavBarDesktop = () => {
         <CarroselProdutos />
 
         <VStack justify={'center'}>
+        <div style={{paddingTop:'5px' }}></div>
           <Text fontFamily={' Quando, serif'} ><b>NOSSAS CATEGORIAS</b></Text>
           <Divider paddingY={2} borderColor={'ButtonShadow'}/>
           <HStack paddingTop={3} spacing={100}>
