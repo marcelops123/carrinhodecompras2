@@ -10,6 +10,7 @@ import "@fontsource/poppins"
 import "@fontsource/quando"
 import "@fontsource/poly"
 import '@fontsource/roboto'
+import { AnimationPage } from "./AnimationPage"
 
 const menu = (
   <Menu>
@@ -32,8 +33,9 @@ const menu = (
 export const NavBarDesktop = () => {
   return (
 
-
     <>
+      <AnimationPage>
+        
       <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'#3d88eb'}>
         <Image marginLeft={3} width={'12%'} src='logo branca.svg'></Image>
         <Spacer />
@@ -87,7 +89,8 @@ export const NavBarDesktop = () => {
         <Produtos/>
         </HStack>
       </div>
-
+      
+      </AnimationPage>
 
 
     </>

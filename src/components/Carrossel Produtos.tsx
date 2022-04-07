@@ -1,6 +1,6 @@
-import { Grid, HStack, Spacer } from "@chakra-ui/react";
+import { HStack } from "@chakra-ui/react";
 import { Carousel,  Image } from "antd"
-import { AnimationPage } from "./AnimationPage";
+import { AnimationCarrossel, AnimationPage } from "./AnimationPage";
 import '../styles/Globalcss.css'
 
 const contentStyle: any = {
@@ -17,7 +17,7 @@ const contentStyle: any = {
 export const CarroselProdutos = () => {
     return (
         <>
-      <AnimationPage>
+        <AnimationCarrossel>
         <HStack  marginTop={3} padding={0}  >
 
         </HStack>
@@ -35,7 +35,8 @@ export const CarroselProdutos = () => {
           <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_659213-MLA49565959017_042022-OO.webp'></Image>
         </div>
       </Carousel>
-      </AnimationPage>
+     
+        </AnimationCarrossel>
         </>
     )
 }
