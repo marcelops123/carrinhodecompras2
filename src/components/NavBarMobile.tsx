@@ -60,22 +60,22 @@ export const NavBarMobile = () => {
       <AnimationPage>
         <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={2} backgroundColor={'#3d88eb'}>
           <Image width={'12'} src='logosós.png'></Image>
-          <Spacer />
-          <HStack paddingLeft={0} >
               <Dropdown overlayStyle={{ boxSizing: 'inherit' }} overlay={categorias} placement="bottom" arrow>
-                <Button  fontFamily={'Poly, serif'} fontSize={16} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Categorias</Button>
+                <Button  fontFamily={'Poly, serif'} paddingX={2} fontSize={14} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Categorias</Button>
               </Dropdown>
               <Dropdown overlay={empresas} placement="bottom" arrow>
-                <Button fontFamily={'Poly, serif'} fontSize={16} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Empresas</Button>
+                <Button fontFamily={'Poly, serif'} paddingX={5} fontSize={14} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Empresas</Button>
               </Dropdown>
-            </HStack>
+          <Spacer />
 
           <SimpleGrid marginTop={-4}  >
-            <HStack >
-              <DarkMode/>
+            <HStack marginLeft={-5} >
               <Button _hover={{}} _focus={{}} _active={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
-              <Spacer />
+              <HStack paddingX={'8%'}>
               <MenuMobile />
+              </HStack>
+
+
 
             </HStack>
           </SimpleGrid>
