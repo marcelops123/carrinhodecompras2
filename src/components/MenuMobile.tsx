@@ -1,5 +1,5 @@
 import { UserOutlined } from "@ant-design/icons"
-import { HamburgerIcon, AddIcon, SearchIcon  } from "@chakra-ui/icons"
+import { HamburgerIcon, SearchIcon  } from "@chakra-ui/icons"
 import {  IconButton, InputGroup, InputRightElement, Menu, MenuButton, Input, MenuList, VStack, Button } from "@chakra-ui/react"
 import { Avatar } from "antd"
 

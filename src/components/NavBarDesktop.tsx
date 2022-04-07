@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
-import { Box, Button, Flex, HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Text, Stack, Divider } from "@chakra-ui/react"
+import {  Button,  HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Text, Divider } from "@chakra-ui/react"
 import { ShoppingCartOutlined, UserOutlined } from "@ant-design/icons"
 import { SearchIcon } from "@chakra-ui/icons"
 import { Avatar, Dropdown, Menu } from "antd"

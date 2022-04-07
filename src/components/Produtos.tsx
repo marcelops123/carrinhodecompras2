@@ -1,4 +1,4 @@
-import { Text, Box, Divider, Image, Button, HStack } from "@chakra-ui/react"
+import { Text, Box, Divider, Image, Button } from "@chakra-ui/react"
 import "@fontsource/alata"
 
     function teste() {

@@ -1,6 +1,6 @@
 import { HStack } from "@chakra-ui/react";
 import { Carousel,  Image } from "antd"
-import { AnimationCarrossel, AnimationPage } from "./AnimationPage";
+import { AnimationCarrossel  } from "./AnimationPage";
 import '../styles/Globalcss.css'
 
 const contentStyle: any = {

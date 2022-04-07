@@ -1,9 +1,10 @@
-import { Button, Divider, Grid, HStack, Image, Text, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Flex } from '@chakra-ui/react'
-import { SearchIcon } from '@chakra-ui/icons'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import { Button, Divider,  HStack, Image, Text,   SimpleGrid, Spacer, VStack  } from '@chakra-ui/react'
 import React from 'react'
 import 'antd/dist/antd.css';
 import { ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
-import { Dropdown, Menu, Avatar } from 'antd';
+import { Menu, Avatar } from 'antd';
 import { MenuMobile } from './MenuMobile';
 import { CarroselProdutos } from './Carrossel Produtos';
 import { Produtos } from './Produtos';
@@ -14,24 +15,44 @@ import '@fontsource/roboto'
 import '../styles/Globalcss.css'
 import { AnimationPage } from './AnimationPage';
 import { DarkMode } from './DarkMode';
-const menu = (
+const categorias = (
   <Menu>
     <Menu.Item>
       <a>
-        1st menu item
+       Celulares
       </a>
     </Menu.Item>
     <Menu.Item>
       <a>
-        2nd menu item
+        Computadores
       </a>
     </Menu.Item>
+       
 
 
 
   </Menu>
 )
 
+
+const empresas = (
+  <Menu>
+    <Menu.Item>
+      <a>
+       HIDROMAQ PEÇAS AGRICOLAS
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a>
+        COOPERVAP
+      </a>
+    </Menu.Item>
+       
+
+
+
+  </Menu>
+)
 
 export const NavBarMobile = () => {
   return (
