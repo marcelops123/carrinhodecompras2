@@ -25,7 +25,7 @@ export const CarroselProdutos = () => {
           <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_735707-MLA49568604353_042022-OO.webp'></Image>
         </div>
         <div>
-          <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_728991-MLA49536349545_032022-OO.webp'></Image>
+          <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_724386-MLA49579131631_042022-OO.webp'></Image>
         </div>
         <div>
           <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_651494-MLA49567281378_042022-OO.webp'></Image>
