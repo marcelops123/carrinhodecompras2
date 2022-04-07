@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
-import {  Button,  HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Text, Divider, Avatar  } from "@chakra-ui/react"
+import {  Button,  HStack, Image, Input, InputGroup, InputRightElement, SimpleGrid, Spacer, VStack, Text, Divider, Avatar, Grid  } from "@chakra-ui/react"
 import { ShoppingCartOutlined, UserOutlined } from "@ant-design/icons"
 import { SearchIcon } from "@chakra-ui/icons"
 import {  Dropdown, Menu } from "antd"
@@ -81,7 +81,6 @@ export const NavBarDesktop = () => {
         </SimpleGrid>
         <Spacer paddingX={100} />
         <HStack marginTop={-4} paddingRight='2%'>
-          <DarkMode/>
           <Button _hover={{}} _focus={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
           <Avatar  src='https://avatars.githubusercontent.com/u/95228603?v=4' icon={<UserOutlined />} />
         </HStack>
@@ -98,20 +97,24 @@ export const NavBarDesktop = () => {
           <HStack paddingTop={3} spacing={100}>
 
 
-            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_974266-MLA48254501676_112021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_707970-MLA46081133887_052021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_895808-MLB47860103489_102021-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_738716-MLB49182934470_022022-AB.webp' icon={<UserOutlined />} />
-            <Avatar style={{ cursor: 'pointer' }} size={'60'} src='https://http2.mlstatic.com/D_Q_NP_837255-CBT46242013787_062021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_974266-MLA48254501676_112021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_707970-MLA46081133887_052021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_895808-MLB47860103489_102021-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_738716-MLB49182934470_022022-AB.webp' icon={<UserOutlined />} />
+            <Avatar style={{ cursor: 'pointer' }} size='xl' src='https://http2.mlstatic.com/D_Q_NP_837255-CBT46242013787_062021-AB.webp' icon={<UserOutlined />} />
           </HStack>
         </VStack>
 
         <VStack paddingTop={10} marginLeft={'5%'} align={'initial'}>
           <Text padding={'3%'} fontSize={22} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI ! </b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={20} variant='link'>Ver mais</Button></Text>
         </VStack>
-        <HStack justify={'center'} paddingX={1} paddingBottom={10} >
+
+
+        <SimpleGrid justifyContent='center' paddingLeft={10} columns={{ lg: 5, xl:7 }}    >
         <Produtos/>
-        </HStack>
+        </SimpleGrid>
+
+
       </div>
       </AnimationPage>
 
