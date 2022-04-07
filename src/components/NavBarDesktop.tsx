@@ -34,7 +34,7 @@ export const NavBarDesktop = () => {
 
 
     <>
-      <HStack id="testes" boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'#3d88eb'}>
+      <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'#3d88eb'}>
         <Image marginLeft={3} width={'12%'} src='logo branca.svg'></Image>
         <Spacer />
         <SimpleGrid columns={2}  >
@@ -62,7 +62,7 @@ export const NavBarDesktop = () => {
         </HStack>
       </HStack>
 
-      <Stack id="testez">
+      <div style={{marginTop: '15px'}} id="testez">
 
         <CarroselProdutos />
 
@@ -86,7 +86,7 @@ export const NavBarDesktop = () => {
         <HStack justify={'center'} paddingX={1}  marginBottom={'159px'}>
         <Produtos/>
         </HStack>
-      </Stack>
+      </div>
 
 
 

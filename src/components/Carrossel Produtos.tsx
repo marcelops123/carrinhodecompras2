@@ -18,7 +18,7 @@ export const CarroselProdutos = () => {
     return (
         <>
       <AnimationPage>
-        <HStack  marginTop={30} padding={0}  >
+        <HStack  marginTop={3} padding={0}  >
 
         </HStack>
          <Carousel  autoplay  >

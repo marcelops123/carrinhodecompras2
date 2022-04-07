@@ -11,7 +11,7 @@ import "@fontsource/poppins"
 import "@fontsource/quando"
 import "@fontsource/poly"
 import '@fontsource/roboto'
-
+import '../styles/Globalcss.css'
   const menu = (
   <Menu>
     <Menu.Item>
@@ -52,6 +52,8 @@ export const NavBarMobile = () => {
     <CarroselProdutos/>
       
     <Spacer />
+    <div style={{marginTop: '-5px'}} id='testez'>
+
     <SimpleGrid columns={1} >
     <VStack padding={2} >
         <b>NOSSAS CATEGORIAS</b>
@@ -71,10 +73,11 @@ export const NavBarMobile = () => {
         </VStack>
 
         <HStack justify={'center'}>
-        <SimpleGrid width={'80%'} marginRight={'5%'}  columns={{sm: 2, lg:3}} spacing={0}   >
+        <SimpleGrid width={'80%'} marginRight={'5%'} justifyContent='center' columns={{sm: 2, lg:3}} spacing={0}   >
         <Produtos />
         </SimpleGrid>
         </HStack>
+    </div>
       
           
 

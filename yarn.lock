@@ -1899,6 +1899,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/alata@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/alata/-/alata-4.5.6.tgz#1589f1179d9c85e00cd15801f2f4cccdc676d231"
+  integrity sha512-uTY/eZQs7O9TGPGLpo2pUxcuV4iQUht1cHrH3yqNouz+OHZ9I/MX4BOKAtSb+6dT4XY2MnZld5E3nTtzER76gw==
+
 "@fontsource/lato@^4.5.5":
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/@fontsource/lato/-/lato-4.5.5.tgz#d7371e29600528a44f5076a1604cf223168d1579"
