@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Button, Divider,  HStack, Image, Text,   SimpleGrid, Spacer, VStack  } from '@chakra-ui/react'
+import { Button, Divider,  HStack, Image, Text, SimpleGrid, Spacer, VStack  } from '@chakra-ui/react'
 import React from 'react'
 import 'antd/dist/antd.css';
 import { ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
-import { Menu, Avatar } from 'antd';
+import { Menu, Avatar, Dropdown } from 'antd';
 import { MenuMobile } from './MenuMobile';
 import { CarroselProdutos } from './Carrossel Produtos';
 import { Produtos } from './Produtos';
@@ -61,7 +61,14 @@ export const NavBarMobile = () => {
         <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={2} backgroundColor={'#3d88eb'}>
           <Image width={'12'} src='logosós.png'></Image>
           <Spacer />
-
+          <HStack paddingLeft={0} >
+              <Dropdown overlayStyle={{ boxSizing: 'inherit' }} overlay={categorias} placement="bottom" arrow>
+                <Button  fontFamily={'Poly, serif'} fontSize={16} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Categorias</Button>
+              </Dropdown>
+              <Dropdown overlay={empresas} placement="bottom" arrow>
+                <Button fontFamily={'Poly, serif'} fontSize={16} _hover={{}} _focusVisible={{}} _focus={{}} backgroundColor={'transparent'}>Empresas</Button>
+              </Dropdown>
+            </HStack>
 
           <SimpleGrid marginTop={-4}  >
             <HStack >
