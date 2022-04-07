@@ -39,7 +39,7 @@ export const Produtos = () => {
         <Divider marginLeft={-2} width={'105%'}  marginY={3} />
         <Text padding={3} fontFamily={'Lato, sans-serif'} fontSize={30}><b>R$3200,94</b></Text>
         <Text padding={3} textColor='GrayText' fontFamily={'Roboto Slab, serif'} fontSize={18}>Galaxy S22</Text>
-        <Button borderRadius={6 } _focus={{}} _hover={{}}  borderX={2} borderY={2}  height={50} borderStyle={'solid'} colorScheme={'#42d4ed'} outlineColor={'#42d4ed'} textColor={'#42d4ed'}   marginLeft={2}><b>Adicionar ao carrinho</b></Button>
+        <Button borderRadius={6 } _focus={{}} borderX={2} borderY={2}  height={50} borderStyle={'solid'} colorScheme={'#42d4ed'} outlineColor={'#42d4ed'} textColor={'#42d4ed'}   marginLeft={2}><b>Adicionar ao carrinho</b></Button>
 
         </Box>
 

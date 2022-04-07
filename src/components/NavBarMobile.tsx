@@ -6,11 +6,11 @@ import { ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Avatar } from 'antd';
 import { MenuMobile } from './MenuMobile';
 import { CarroselProdutos } from './Carrossel Produtos';
+import { Produtos } from './Produtos';
 import "@fontsource/poppins"
 import "@fontsource/quando"
 import "@fontsource/poly"
 import '@fontsource/roboto'
-import { Produtos } from './Produtos';
 
   const menu = (
   <Menu>
@@ -69,7 +69,7 @@ export const NavBarMobile = () => {
     <VStack paddingTop={10} marginLeft={'5%'} align={'initial'}>
           <Text padding={'3%'} fontFamily={'Poppins, sans-serif'}><b>OS MELHORES PRODUTOS ESTÃO AQUI ! </b> <Button fontFamily={'Roboto, sans-serif'} colorScheme='blue' _active={{}} _focus={{}} fontSize={15} variant='link'>Ver mais</Button></Text>
         </VStack>
-        <SimpleGrid  width='2000px' paddingX={100}  >
+        <SimpleGrid  width='2000px' paddingX={'18%'}  >
         <Produtos/>
         </SimpleGrid  >
       <Spacer  />
