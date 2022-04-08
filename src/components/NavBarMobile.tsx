@@ -83,7 +83,7 @@ export const NavBarMobile = () => {
         <CarroselProdutos />
 
         <Spacer />
-        <div style={{ marginTop: '-5px' }} id='testez'>
+        <div style={{ marginTop: '-6px' }} id='testez'>
 
           <SimpleGrid columns={1} >
             <VStack padding={2} >

@@ -21,7 +21,7 @@ export const Produtos = () => {
                 </HStack>
                 <Text padding={3} fontFamily={'Lato, sans-serif'} fontSize={30}><b>R$2200,94</b></Text>
                 <Text padding={3} textColor='GrayText' fontFamily={'Roboto Slab, serif'} fontSize={18}>Bicicleta Aorus 27"</Text>
-                <Button borderRadius={6} onClick={teste} fontSize={18} fontFamily={'Alata, sans-serif'} _focus={{}} _hover={{}} borderX={2} borderY={2} width='95%' height={50} borderStyle={'solid'} colorScheme={'#42d4ed'} outlineColor={'#42d4ed'} textColor={'#42d4ed'} marginLeft={2}><b>Adicionar ao carrinho</b></Button>
+                <Button borderRadius={6} onClick={teste} fontSize={18} fontFamily={'Alata, sans-serif'} _focus={{}} _hover={{}} borderX={2} borderY={2} width='95%' height={50} borderStyle={'solid'} colorScheme={'#42d4ed'} outlineColor={'#42d4ed'} textColor={'black'} marginLeft={2}><b>Adicionar ao carrinho</b></Button>
 
             </Box>
 
