@@ -6,12 +6,11 @@ import { UseMediaNavBar } from "./components/useMediaQuery";
 
 
 ReactDOM.render(
- <ChakraProvider theme={theme}>
+  <ChakraProvider theme={theme}>
 
-   <UseMediaNavBar/>
-   <Main/>
- </ChakraProvider>,
+    <UseMediaNavBar />
+    <Main />
+  </ChakraProvider>,
   document.getElementById("root"),
 )
 
-  

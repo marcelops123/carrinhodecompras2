@@ -6,10 +6,10 @@ import { NavBarDesktop } from "./Desktop"
 export const UseMediaNavBar = () => {
     const [MenorThan1260] = useMediaQuery('(min-width: 1136px)')
     return (
-        
+
         <Stack>
 
-        {MenorThan1260 ? <NavBarDesktop /> : <NavBarMobile />}
+            {MenorThan1260 ? <NavBarDesktop /> : <NavBarMobile />}
         </Stack>
     )
 }
