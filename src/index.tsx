@@ -4,6 +4,7 @@ import { Main } from "./Main";
 import { ChakraProvider, theme } from "@chakra-ui/react";
 import { UseMediaNavBar } from "./components/useMediaQuery";
 
+
 ReactDOM.render(
  <ChakraProvider theme={theme}>
 

@@ -12,7 +12,7 @@ import "@fontsource/quando"
 import "@fontsource/poly"
 import '@fontsource/roboto'
 import { AnimationPage } from "./AnimationPage"
-import { DarkMode } from "./DarkMode"
+import { tema } from "./DarkMode"
 
 const categorias = (
   <Menu>
@@ -58,7 +58,7 @@ export const NavBarDesktop = () => {
 
     <>
       <AnimationPage>
-      <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'ThreeDDarkShadow'}>
+      <HStack boxShadow='0px 0px 10px rgba(50, 50, 50, 1)' padding={0} backgroundColor={'#3d88eb'}>
         <Image marginLeft={3} width={'12%'} src='logo branca.svg'></Image>
         <Spacer />
         <SimpleGrid columns={2}  >
@@ -81,7 +81,6 @@ export const NavBarDesktop = () => {
         </SimpleGrid>
         <Spacer paddingX={100} />
         <HStack marginTop={-4} paddingRight='2%'>
-          <DarkMode/>
           <Button _hover={{}} _focus={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
           <Avatar  src='https://avatars.githubusercontent.com/u/95228603?v=4' icon={<UserOutlined />} />
         </HStack>
@@ -111,7 +110,7 @@ export const NavBarDesktop = () => {
         </VStack>
 
 
-        <SimpleGrid justifyContent='center' paddingLeft={10} columns={7}    >
+        <SimpleGrid justifyContent='center'  paddingLeft={10} minChildWidth={'270px'}   >
         <Produtos/>
         </SimpleGrid>
 
