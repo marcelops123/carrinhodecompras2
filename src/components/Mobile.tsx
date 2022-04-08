@@ -70,8 +70,8 @@ export const NavBarMobile = () => {
           <Spacer />
 
           <SimpleGrid marginTop={-4}  >
-            <HStack marginLeft={-5} >
-              <Button _hover={{}} _focus={{}} _active={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
+            <HStack marginLeft={-8} >
+              <Button _hover={{}} _focus={{}} paddingRight={3} _active={{}} color='white' fontSize={30} backgroundColor='transparent' marginTop={1}  ><ShoppingCartOutlined /></Button>
               <HStack paddingX={'8%'}>
                 <MenuMobile />
               </HStack>
@@ -91,7 +91,7 @@ export const NavBarMobile = () => {
               <b>NOSSAS CATEGORIAS</b>
               <Divider paddingY={2} borderColor={'ButtonShadow'} />
 
-              <HStack padding={2} >
+              <HStack padding={1} >
 
                 <Categorias />
 
