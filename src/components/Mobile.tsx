@@ -81,7 +81,6 @@ export const NavBarMobile = () => {
             </HStack>
           </SimpleGrid>
         </HStack>
-
         <CarroselProdutos />
 
         <Spacer />
