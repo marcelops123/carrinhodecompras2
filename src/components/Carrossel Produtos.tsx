@@ -31,7 +31,6 @@ export const CarroselProdutos = () => {
           <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_651494-MLA49567281378_042022-OO.webp'></Image>
         </div>
         <div>
-          <Image style={contentStyle} width={'100%'} src='https://http2.mlstatic.com/D_NQ_659213-MLA49565959017_042022-OO.webp'></Image>
         </div>
       </Carousel>
      
