@@ -90,11 +90,7 @@ export const NavBarDesktop = () => {
           <CarroselProdutos />
 
           <VStack justify={'center'}>
-<<<<<<< HEAD
-            <div style={{ paddingTop: '6px' }}></div>
-=======
             <div style={{ paddingTop: '8px' }}></div>
->>>>>>> quote
             <Text fontSize={22} fontFamily={' Quando, serif'} ><b>NOSSAS CATEGORIAS</b></Text>
             <Divider paddingY={2} borderColor={'ButtonShadow'} />
             <HStack paddingTop={3} spacing={100}>
