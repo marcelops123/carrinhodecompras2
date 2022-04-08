@@ -81,7 +81,6 @@ export const NavBarMobile = () => {
             </HStack>
           </SimpleGrid>
         </HStack>
-
         <CarroselProdutos />
 
         <Spacer />
@@ -107,7 +106,7 @@ export const NavBarMobile = () => {
           </VStack>
 
           <HStack justify={'center'}>
-            <SimpleGrid width={'80%'} marginLeft={'8%'} justifyContent='center' columns={[1, 2, 3, 4, 5, 6]} spacing={0}   >
+            <SimpleGrid width={'80%'} marginLeft={'3%'} justifyContent='center' columns={[1, 2, 3, 4, 5, 6]} spacing={0}   >
               <Produtos />
             </SimpleGrid>
           </HStack>

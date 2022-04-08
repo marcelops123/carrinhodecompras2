@@ -12,7 +12,7 @@ export const Produtos = () => {
 
 
 
-            <Box id="boxprodutos" padding={2} maxW={'280px'} boxShadow={'1px 1px 12px black'} backgroundColor={'white'}   >
+            <Box id="boxprodutos" padding={2}  maxW={'260px'} boxShadow={'1px 1px 12px black'} backgroundColor={'white'}   >
                 <Image src='https://http2.mlstatic.com/D_Q_NP_726463-MLB48157039583_112021-AB.webp' />
                 <Divider marginLeft={-2} width={'105%'} marginY={3} />
                 <HStack>
@@ -25,7 +25,7 @@ export const Produtos = () => {
 
             </Box>
 
-            <Box id="boxprodutos" padding={2} maxW={'280px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}     >
+            <Box id="boxprodutos" padding={2} maxW={'260px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}     >
                 <Image src='https://http2.mlstatic.com/D_Q_NP_788189-MLB46951747825_082021-AB.webp' />
                 <Divider marginLeft={-2} width={'105%'} marginY={3} />
                 <HStack>
@@ -38,7 +38,7 @@ export const Produtos = () => {
 
             </Box>
 
-            <Box id="boxprodutos" padding={2} maxW={'280px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}>
+            <Box id="boxprodutos" padding={2} maxW={'260px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}>
                 <Image src='https://http2.mlstatic.com/D_Q_NP_609190-MLB43485357216_092020-AB.webp' />
                 <Divider marginLeft={-2} width={'105%'} marginY={3} />
                 <HStack>
@@ -51,7 +51,7 @@ export const Produtos = () => {
 
             </Box>
 
-            <Box id="boxprodutos" padding={2} maxW={'280px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}  >
+            <Box id="boxprodutos" padding={2} maxW={'260px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}  >
                 <Image src='https://http2.mlstatic.com/D_Q_NP_811224-MLB44050294004_112020-AB.webp' />
                 <Divider marginLeft={-2} width={'105%'} marginY={3} />
                 <HStack>
@@ -64,7 +64,7 @@ export const Produtos = () => {
 
             </Box>
 
-            <Box id="boxprodutos" padding={2} maxW={'280px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}   >
+            <Box id="boxprodutos" padding={2} maxW={'260px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}   >
                 <Image src='https://http2.mlstatic.com/D_Q_NP_971596-MLB46520356363_062021-AB.webp' />
                 <Divider marginLeft={-2} width={'105%'} marginY={3} />
                 <HStack>
@@ -78,7 +78,7 @@ export const Produtos = () => {
 
             </Box>
 
-            <Box id="boxprodutos" padding={2} maxW={'280px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}   >
+            <Box id="boxprodutos" padding={2} maxW={'260px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}   >
                 <Image src='https://http2.mlstatic.com/D_Q_NP_862558-MLB49011458317_022022-AB.webp' />
                 <Divider marginLeft={-2} width={'105%'} marginY={3} />
                 <HStack>
@@ -87,11 +87,11 @@ export const Produtos = () => {
                 </HStack>
                 <Text padding={3} fontFamily={'Lato, sans-serif'} fontSize={30}><b>R$560,65</b></Text>
                 <Text padding={3} textColor='GrayText' fontFamily={'Roboto Slab, serif'} fontSize={18}>Air Fryer</Text>
-                <Button borderRadius={6} fontSize={18} fontFamily={'Alata, sans-serif'} _focus={{}} _hover={{}} width='95%' borderX={2} borderY={2} height={50} borderStyle={'solid'} colorScheme={'#42d4ed'} outlineColor={'#42d4ed'} textColor={'black'} marginLeft={2}><b>Adicionar ao carrinho</b></Button>
+                <Button borderRadius={6} fontSize={18} fontFamily={'Alata, sans-serif'} _focus={{}} _hover={{}} width='95%' borderX={2} borderY={2} height={50} borderStyle={'solid'} colorScheme={'#42d4ed'} outlineColor={'#42d4ed'} textColor={'black'}  marginLeft={2}><b>Adicionar ao carrinho</b></Button>
             </Box>
 
 
-            <Box id="boxprodutos" padding={2} maxW={'280px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}   >
+            <Box id="boxprodutos" padding={2} maxW={'260px'} boxShadow={'1px 1px 12px black'} fontSize={8} backgroundColor={'white'}   >
                 <Image src='https://http2.mlstatic.com/D_Q_NP_635605-MLA44492818317_012021-AB.webp' />
                 <Divider marginLeft={-2} width={'105%'} marginY={3} />
                 <HStack>
