@@ -90,7 +90,8 @@ export const NavBarDesktop = () => {
           <CarroselProdutos />
 
           <VStack justify={'center'}>
-            
+           sla
+           
             <Text fontSize={22} fontFamily={' Quando, serif'} ><b>NOSSAS CATEGORIAS</b></Text>
             <Divider paddingY={2} borderColor={'ButtonShadow'} />
             <HStack paddingTop={3} spacing={100}>
