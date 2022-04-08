@@ -90,7 +90,7 @@ export const NavBarDesktop = () => {
           <CarroselProdutos />
 
           <VStack justify={'center'}>
-            <div style={{ paddingTop: '5px' }}></div>
+            <div style={{ paddingTop: '6px' }}></div>
             <Text fontSize={22} fontFamily={' Quando, serif'} ><b>NOSSAS CATEGORIAS</b></Text>
             <Divider paddingY={2} borderColor={'ButtonShadow'} />
             <HStack paddingTop={3} spacing={100}>
@@ -112,7 +112,6 @@ export const NavBarDesktop = () => {
           <SimpleGrid justifyContent='center' paddingLeft={10} minChildWidth={'270px'}   >
             <Produtos />
           </SimpleGrid>
-
 
         </div>
       </AnimationPage>
